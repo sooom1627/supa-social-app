@@ -65,6 +65,7 @@ const config = {
     ],
     // off: require構文の使用を許可。
     "@typescript-eslint/no-var-requires": "off",
+    "@typescript-eslint/no-require-imports": "off", // requireスタイルのインポートを許可
   },
   // ESLintの解析対象外とするパスやファイルを指定します
   ignorePatterns: [
